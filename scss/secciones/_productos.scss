@@ -1,0 +1,9 @@
+/* Estilos Productos */
+
+body{
+    main{
+        .titProductos{
+            @extend %estilosTit;
+        }
+    }
+}

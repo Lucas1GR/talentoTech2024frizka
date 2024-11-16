@@ -1,0 +1,15 @@
+/* Estilos Ayuda */
+
+body{
+    main{
+        section{
+            .respuestas{
+               font-size: $tama*2;
+               text-align: center; 
+            }              
+            .titAyuda{
+                @extend %estilosTit;
+            }      
+        }
+    }
+}

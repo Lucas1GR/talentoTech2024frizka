@@ -1,0 +1,18 @@
+/* Estilos Contacto */
+
+body{
+    main{
+        section{
+            .titContacto{
+                @extend %estilosTit;
+                }
+                .colorFor{
+                    background-color: $color6;
+                    color: white;
+                    font-weight: normal;
+                    font-size: $tama*2.5;
+                    letter-spacing: 2px
+                }
+            }
+        }
+    }

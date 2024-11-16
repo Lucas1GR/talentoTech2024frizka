@@ -1,0 +1,39 @@
+/* Estilos index */
+
+body{
+    main{
+        .imgCentrada{
+            display: flex;
+            justify-content: center;
+        }
+        .imagenesIndex{
+            .titDestacados{
+                @extend %estilosTit;
+            }
+            .imgDestacada{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin: 6rem;
+            }
+            .bordeRedondeado{
+                border-radius: 15%;
+                width: $ancho*2.5;
+                margin: 50px;
+            }
+            .bordeRedondeado:hover{
+                transform: scale(1.6,1.6);
+                transition: all 1s ease;
+                border: black 1px solid;
+            }
+        }
+        .tamanio{
+            padding: 25px;
+        } 
+        .mona{
+            background-image: url('../images/friska\ png\ 2\ \(1\)\ \(1\).png');
+            background-position: -13px 20px;
+        }
+    }
+}

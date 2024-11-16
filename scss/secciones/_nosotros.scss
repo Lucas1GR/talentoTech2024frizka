@@ -1,0 +1,29 @@
+/* Estilos Nosotros */
+
+.bodyNosotros{
+    background-image: url('../images/Bags.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+main{
+    section{ 
+        .titSomos{
+            @extend %estilosTit;
+        }
+        .flexNos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .nosP{
+                padding: 15px;
+                color: black;
+            }
+        }
+        .monita{
+            width: $ancho*4.5;
+        }
+    }
+}
+}

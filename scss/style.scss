@@ -1,0 +1,23 @@
+/* Estilos Generales */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Finlandica', sans-serif;
+    font-style: normal;
+}
+
+//Variables
+@import './variables/tamanios';
+@import './variables/colores';
+@import './variables/extend';
+
+/*Secciones*/
+@import './secciones/index';
+@import './secciones/ayuda';
+@import './secciones/contacto';
+@import './secciones/nosotros';
+@import './secciones/productos';
+@import './secciones/body';
+@import './secciones/queries';
