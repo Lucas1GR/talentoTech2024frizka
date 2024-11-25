@@ -61,8 +61,7 @@ A continuación, se presentan las consignas implementadas en el proyecto:
 
 ## URL del Proyecto
 
-El proyecto puede visualizarse en la siguiente URL: [https://lucas1gr.github.io/talentoTech2024frizka/index.html](https://lucas1gr.github.io/talentoTech2024fritzska/index.html)
-
+El proyecto puede visualizarse en la siguiente URL: [https://lucas1gr.github.io/talentoTech2024frizka/] 
 ## Instalación y Uso
 
 ### Opción 1: Clonar este repositorio con Git
